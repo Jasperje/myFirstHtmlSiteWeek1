@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>What's Your Favorite Dog Breed?</title>
+    <link rel="stylesheet" href="styles.css">
+   
  </head>
  <body>
 
 
 
   <nav>
-    <a href="index.html">| Home | </a>
+    <a href="index.html"> | Home | </a>
     <a href="blueHeelerFunFacts.html"> Blue Heeler Fun Facts | </a>
     <a href="corgiFunFacts.html"> Corgi Fun Facts | </a>
     <a href="whatsYourFavoriteBreedPoll.html"> What's Your Favorite Dog Breed? Take The Poll! |</a>
@@ -19,11 +21,12 @@
 
     <h1> What's Your Favorite Dog Breed?</h1>
     <h2>Take The Poll Here:</h2>
-    <h3>This is a tough question, but you can only choose one option!</h3>
+    <h3>This is a tough question, but you may only choose one!</h3>
 
 <!-- Here is my form, which is a poll that users can take to choose their favorite dog breed.
  It includes a submit button with a pop-up message too-->
     <form>
+      <label> 
          <input type="radio" name="dogBreed" value="blueHeeler" > Blue Heeler<br>
          <input type="radio" name="dogBreed" value="chihuahua"> Chihuahua<br>
          <input type="radio" name="dogBreed" value="corgi" placeholder="Corgi"> Corgi<br> 
@@ -34,15 +37,21 @@
          <input type="radio" name="dogBreed" value="mutt"> Mutt<br>
          <input type="radio" name="dogBreed" value="poodle"> Poodle<br>
          <input type="radio" name="dogBreed" value="pug"> Pug<br>
+         <br>
          <br><input type="submit" value="Submit" onclick="alert('Trick Question... All dogs are the best!')">
-    
+        </label>
          
     </form>
- <br>
+  <br>
    
 
-   <img src="https://aikiou.com/wp-content/uploads/2019/03/dog-breeds.jpg" alt="Dog breeds" width="750" height="250">
+<section class="img-wide">
+<img src="https://aikiou.com/wp-content/uploads/2019/03/dog-breeds.jpg" alt="Dog breeds" width="750" height="250">
+</section>
 
+<section class="img-narrow">
+<img src="https://blog.homesalive.ca/hubfs/Blog/2023/Best%20Dog%20Breeds/best-dog-breeds-article-feature.webp" alt="Dog breeds" width="350" height="200">
+</section>
 
  </body>
  </html>

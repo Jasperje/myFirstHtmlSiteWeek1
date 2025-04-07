@@ -1,0 +1,95 @@
+/* Coding Steps:
+
+Style the website you made last week using CSS with the following requirements:
+* Use only external CSS file (no internal or inline styling)
+* Every element must be styled.
+* Create style rules using class, id, and element selectors.
+*/ 
+
+/* ---UNIVERSAL SELECTOR--- */
+
+
+/* ---ELEMENT SELECTORS--- */
+
+html {
+    font-family: Calibri, 'Trebuchet MS', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background: linear-gradient(90deg, #09afe1, #59e1e1, #affffa, #ffffff);
+  }
+
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color:rgb(156, 4, 232);
+    filter: drop-shadow(2px 1px 1px #011d2e);
+}
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(72, 12, 240);
+
+
+}
+h3 {
+    font: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: rgb(72, 12, 240);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+   
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+img {
+    justify-content: center;
+    justify-content: space-around;
+    margin: 1rem;
+    border-color: black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+text {
+    text-align: center;
+}
+label {
+    cursor: pointer;
+    display: block;
+}
+
+
+
+/* ---CUSTOM CLASS NAME SELECTORS--- */
+
+.img-div {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+/* ----- MEDIA QUERIES for RESPONSIVE DESIGN ----- */
+@media only screen and (max-width: 1500px) {
+    .img-narrow {
+        display: block;
+    }
+}
+
+
+/*
+@media only screen and (max-width: 1100px) {
+*/
+
+
+@media only screen and (max-width: 500px) {
+    .img-wide {
+    display: none;
+    }
+}
+
+
